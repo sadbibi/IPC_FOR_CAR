@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Instruct</class>
+ <widget class="QWidget" name="Instruct">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>397</width>
+    <height>398</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>模式</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="2">
+    <widget class="QLineEdit" name="line_mode"/>
+   </item>
+   <item row="0" column="3">
+    <widget class="QPushButton" name="btn_write_mode">
+     <property name="text">
+      <string>配置</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>波特率</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="2">
+    <widget class="QLineEdit" name="line_baud"/>
+   </item>
+   <item row="1" column="3">
+    <widget class="QPushButton" name="btn_write_baud">
+     <property name="text">
+      <string>配置</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>字节数</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1" colspan="2">
+    <widget class="QLineEdit" name="line_size"/>
+   </item>
+   <item row="2" column="3">
+    <widget class="QPushButton" name="btn_write_size">
+     <property name="text">
+      <string>配置</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>网络名称</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1" colspan="2">
+    <widget class="QLineEdit" name="line_name"/>
+   </item>
+   <item row="3" column="3">
+    <widget class="QPushButton" name="btn_write_name">
+     <property name="text">
+      <string>配置</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>网络密码</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1" colspan="2">
+    <widget class="QLineEdit" name="line_code"/>
+   </item>
+   <item row="4" column="3">
+    <widget class="QPushButton" name="btn_write_code">
+     <property name="text">
+      <string>配置</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>网络地址</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1" colspan="2">
+    <widget class="QLineEdit" name="line_address"/>
+   </item>
+   <item row="5" column="3">
+    <widget class="QPushButton" name="btn_write_address">
+     <property name="text">
+      <string>配置</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>网络端口</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1" colspan="2">
+    <widget class="QLineEdit" name="line_com"/>
+   </item>
+   <item row="6" column="3">
+    <widget class="QPushButton" name="btn_write_com">
+     <property name="text">
+      <string>配置</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QPushButton" name="btn_read">
+     <property name="text">
+      <string>读取</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="2" colspan="2">
+    <widget class="QPushButton" name="btn_load">
+     <property name="text">
+      <string>下载</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

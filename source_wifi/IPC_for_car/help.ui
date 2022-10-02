@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Help</class>
+ <widget class="QWidget" name="Help">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>584</width>
+    <height>368</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QPlainTextEdit" name="plainTextEdit">
+     <property name="plainText">
+      <string>致用图传上位机开发者：左家垅的牛
+联系方式：
+QQ：    1486148289
+WECHAT：15973154347
+闲鱼ID：左家垅的牛
+B站ID： 左家垅的牛
+淘宝店铺ID：左家垅的牛
+
+PIC-O-LINK开发者：卜林
+QQ：1626632460
+
+PIC-O-LINK和致用图传需要配套使用，PIC-O-LINK在淘宝店和闲鱼店均有出售，需要请认准店铺名：左家垅的牛。
+
+使用教程在购买产品之后联系客服获取。
+
+开发不易，禁止倒卖。
+
+同时我们提供智能车比赛的指导服务，有需要可以淘宝或闲鱼联系！！
+</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
